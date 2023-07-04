@@ -18,7 +18,7 @@ def longest_word(str)
   word_length = str.split(" ")[0].length
 
   str.split(" ").each {|el|  word = el if el.length >= word_length } 
-  
+   
   word
 end
 
